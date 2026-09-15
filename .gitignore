@@ -1,0 +1,70 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# =========================
+# Data
+# =========================
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# =========================
+# Large ML Artifacts
+# =========================
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.pkl
+*.joblib
+
+# =========================
+# Checkpoints / Outputs
+# =========================
+checkpoints/
+artifacts/
+outputs/
+models/
+embeddings/
+logs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
