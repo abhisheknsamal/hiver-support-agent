@@ -1,7 +1,3 @@
-Absolutely bro. Paste this entire thing into README.md and replace everything currently there. No patches.
-
-
-
 \# Hiver Support Agent
 
 
